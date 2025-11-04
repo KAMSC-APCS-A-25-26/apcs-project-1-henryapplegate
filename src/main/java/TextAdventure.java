@@ -465,7 +465,7 @@ public class TextAdventure {
                     }
                 }
 
-                String endingR = "undecided";
+                String endingR;
                 boolean hasLedger = false;
                 boolean hasPistol = false;
                 for (int i = 0; i < invCount; i++) {
@@ -519,8 +519,7 @@ public class TextAdventure {
                 if (invCount == 0) System.out.println("- (empty)");
                 else for (int i = 0; i < invCount; i++) System.out.println("- " + inventory[i]);
             }
-
-            // Replay prompt validation loop #2
+            
             System.out.println("\nWould you like to play again? (y/n): ");
             String again = "";
             while (true) {
