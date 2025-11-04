@@ -535,6 +535,5 @@ public class TextAdventure {
                 System.out.println("\nStarting a new tale...");
             }
         }
-        sc.close();
     }
 }
